@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Loadout Quality for Combat Extended</name>
+    <author>eebette</author>
+    <packageId>eebette.CELoadoutQuality</packageId>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <description>Quality control for Combat Extended loadouts — the same filters vanilla outfit policies have always had.
+
+- Per-loadout quality and hit-point floors: loadout fetching skips items outside the ranges, and a carried weapon below the floor is dropped and replaced (exactly how apparel outside an outfit filter behaves). Ranges default wide open — the mod does nothing until you narrow them in the loadout dialog.
+- Auto weapon upgrade (toggleable): pawns swap loadout weapons for higher-quality copies of the same weapon and material when one is available. The old weapon is dropped in place, unforbidden, for your haulers.
+
+Requires Combat Extended. Works fine alongside Simple Sidearms and the CE+SS compatibility suite, but needs neither.</description>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>CETeam.CombatExtended</packageId>
+            <displayName>Combat Extended</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2890901044</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>brrainz.harmony</li>
+        <li>CETeam.CombatExtended</li>
+    </loadAfter>
+</ModMetaData>

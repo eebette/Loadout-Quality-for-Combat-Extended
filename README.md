@@ -1,8 +1,10 @@
 # Loadout Quality for Combat Extended
 
-**Status: placeholder — no code yet. Plan approved 2026-08-17.** This README is the
-complete project brief; an agent picking this up cold should be able to build M1
-from it.
+**Status: BUILT and machine-verified 2026-08-18 — both milestones (filter +
+upgrade) implemented, 6/6 automated checks green in a CE-only test profile (see
+TESTPLAN.md). Remaining: owner feel-pass, demo GIF, blessing issues, CE upstream
+pitch, publish (RELEASING.md).** The brief below is kept as design
+documentation.
 
 ## Objective
 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>LQ Test Staging (dev only)</name>
+    <author>eebette</author>
+    <packageId>eebette.lqteststaging</packageId>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <description>Dev-only: stages QUAL-* saves and runs qual* assert scenarios. Inert without -lqstage / -ceassert=qual* CLI args.</description>
+</ModMetaData>
