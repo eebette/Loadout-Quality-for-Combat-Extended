@@ -1,5 +1,8 @@
 # Loadout Quality for Combat Extended
 
+[![Combat Extended Compatible](Media/Badge_CE_compatible.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2890901044)
+![Loadout Quality for Combat Extended](Media/Badge_LQ.png)
+
 **Status: BUILT and machine-verified 2026-08-18 — both milestones (filter +
 upgrade) implemented, 6/6 automated checks green in a CE-only test profile (see
 TESTPLAN.md). Remaining: owner feel-pass, demo GIF, blessing issues, CE upstream
