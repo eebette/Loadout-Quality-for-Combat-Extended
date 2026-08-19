@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """LQ badge + Workshop preview. Same geometry system as the CE+SS suite badges
 (300x100 bar/circle/ring-knockout; 512 preview) — visually consistent, distinct
-identity: goldenrod accent (quality), emblem = CE's rifle glyph (this is a CE
+identity: masterwork-teal accent (quality), emblem = CE's rifle glyph (this is a CE
 mod; glyph remixed from CE's Badge_CE_compatible.svg, CC BY-NC-SA, CE team)
 crowned with a quality star. Run from Media/: python3 badge_gen.py"""
 import collections
@@ -14,7 +14,7 @@ FONT = "/usr/share/fonts/dejavu-sans-fonts/DejaVuSansCondensed-Bold.ttf"
 S = 4
 BLACK = (0, 0, 0, 255)
 WHITE = (255, 255, 255, 255)
-GOLD = (218, 165, 32, 255)
+GOLD = (0, 168, 156, 255)  # masterwork teal — amber/gold collided with the Loadouts Module badge
 
 
 def extract_rifle():
